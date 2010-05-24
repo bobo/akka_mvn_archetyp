@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>akka_sample_java</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+    <source>src/main/java/ChatServer.java</source>
+    <source>src/main/java/ChatSession.java</source>
+    <source>src/main/java/Message.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/IntegrationTest.java</source>
+  </testSources>
+  <resources>
+  </resources>
+</archetype>
