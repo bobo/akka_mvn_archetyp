@@ -1,0 +1,13 @@
+A simple example mvn archetype for a akka project.
+The source should be improved to provide a more usefull akka skeleton.
+
+to use:
+git clone git://github.com/bobo/akka_mvn_archetyp.git
+cd akka_mvn_archetyp
+mvn install
+then somewhere else in a folder you want your project:
+mvn archetype:generate -DarchetypeCatalog=local
+and follow the guide, you should have a archetype named something like: akka_sample_java-archetype 
+in the list.
+
+then you can do mvn test and if you have redis running it should pass
